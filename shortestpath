@@ -1,0 +1,24 @@
+private void shortestpath(int N,ArrayList<ArrayList<Integer>> adj)
+{
+int[] dist=new int[N];
+for(int i=0;i<N;i++)
+{
+dist[i]=1000000;
+}
+Queue<Integer> q=new LinkedList<<>();
+dist[src]=0;
+q.add(src);
+while(q.isEmpty!==false)
+{
+int node=q.poll();
+for(int it:adj.get(u)
+{
+dist[node]+1<dist[it]{
+if(dist[i]+1<dist[it])
+{
+dist[it]=dist[node]+1;
+q.add(it);
+}
+}
+
+
